@@ -1,0 +1,15 @@
+{
+    "name": "nico/atlassian-tools",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.0",
+        "symfony/http-client": "^6.0",
+        "illuminate/collections": "^9.24",
+        "nesbot/carbon": "^2.61"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
